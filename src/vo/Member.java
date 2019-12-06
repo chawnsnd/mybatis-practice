@@ -73,9 +73,9 @@ public class Member {
 
 	@Override
 	public String toString() {
-		return "Member [member_no=" + member_no + ", member_name=" + member_name + ", member_age=" + member_age
-				+ ", member_phone=" + member_phone + ", member_address=" + member_address + ", member_indate="
-				+ member_indate + "]";
+		return "# : " + member_no + " | 이름 : " + member_name + " | 나이 : " + member_age
+				+ " | 전화번호 : " + member_phone + " | 주소 : " + member_address + " | 가입일시 : "
+				+ member_indate;
 	}
 	
 	

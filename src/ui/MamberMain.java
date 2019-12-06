@@ -19,11 +19,9 @@ public class MamberMain {
 		
 		dao.insertMember(member);
 		List<Member> members = dao.ListAllMember();
-		for (Member m : members) {
-			System.out.println(m.toString());
-		}
+		for (Member m : members) System.out.println(m.toString());
 		
-		dao.searchMember(1);
+		System.out.println(dao.searchMember(15).toString());
 		
 		dao.updateMember(member);
 		
