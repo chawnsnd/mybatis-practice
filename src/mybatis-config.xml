@@ -25,7 +25,7 @@
 	
 	<!-- Mapper 파일 include -->
 	<mappers>
-		<mapper resource="memberMapper.xml" />
+		<mapper resource="memberMapper.xml" ></mapper>
 	</mappers>
 	
 </configuration>

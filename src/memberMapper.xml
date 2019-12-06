@@ -3,3 +3,21 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
+<mapper namespace="">
+	<insert id="insertMember" parameterType="vo.Member">
+		insert into
+			mybatis_member (
+				member_no,
+				meber_name,
+				member_age,
+				member_phone,
+				member_address
+			) values (
+				member_seq.nextval,
+				#{member_name},
+				#{member_age},
+				#{member_phone},
+				#{member_address}
+			)
+	</insert>
+</mapper>

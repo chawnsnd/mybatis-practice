@@ -1,2 +1,3 @@
 module MybatisPractice {
+	requires mybatis;
 }
