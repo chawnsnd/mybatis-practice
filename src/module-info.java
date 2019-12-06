@@ -1,3 +1,0 @@
-module MybatisPractice {
-	requires mybatis;
-}

@@ -6,9 +6,9 @@
 	<properties resource="db.properties" />
 
 	<!-- Java Class에 대한 alias 지정 -->
-	<typeAliases>
-		<typeAlias type="member.vo.Member" alias="member" />
-	</typeAliases>
+<!-- 	<typeAliases> -->
+<!-- 		<typeAlias type="member.vo.Member" alias="member" /> -->
+<!-- 	</typeAliases> -->
 	
 	<!-- DB접속 정보 셋팅 -->
 	<environments default="development">

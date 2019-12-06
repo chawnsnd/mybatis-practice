@@ -1,5 +1,7 @@
 package ui;
 
+import java.util.List;
+
 import dao.MemberDAO;
 import vo.Member;
 
@@ -16,5 +18,16 @@ public class MamberMain {
 		member.setMember_address("서울시 강남구");
 		
 		dao.insertMember(member);
+		List<Member> members = dao.ListAllMember();
+		for (Member m : members) {
+			System.out.println(m.toString());
+		}
+		
+		dao.searchMember(1);
+		
+		dao.updateMember(member);
+		
+		dao.deleteMember(1);
+		
 	}
 }

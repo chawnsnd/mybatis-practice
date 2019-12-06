@@ -70,4 +70,13 @@ public class Member {
 	public void setMember_indate(String member_indate) {
 		this.member_indate = member_indate;
 	}
+
+	@Override
+	public String toString() {
+		return "Member [member_no=" + member_no + ", member_name=" + member_name + ", member_age=" + member_age
+				+ ", member_phone=" + member_phone + ", member_address=" + member_address + ", member_indate="
+				+ member_indate + "]";
+	}
+	
+	
 }
