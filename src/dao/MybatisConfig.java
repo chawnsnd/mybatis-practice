@@ -24,7 +24,7 @@ public class MybatisConfig {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
+	} 
 	
 	public static SqlSessionFactory getSqlSessionFactory() {
 		return sqlSessionFactory;

@@ -31,8 +31,8 @@
 	</select>
 	
 	<update id="updateMember" parameterType="vo.Member">
-		update mybatis_member 
-		set 
+		update mybatis_member
+		set
 			member_name = #{member_name},
 			member_age = #{member_age},
 			member_phone = #{member_phone},
